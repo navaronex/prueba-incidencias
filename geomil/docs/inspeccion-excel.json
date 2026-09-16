@@ -1,0 +1,427 @@
+{
+  "archivo": "INFORME PERDIDAS MENSAJERIAS.xlsx",
+  "sha256": "852ca6b5f315ba933d5d2faabbe78ce0dfc7f1f50711826fc233f7b5a221d224",
+  "criterio_registro": "Fila desde la 8 con número de operación no vacío en B. Son candidatos, no expedientes validados.",
+  "hojas": [
+    {
+      "nombre": "PERDIDA MENSAJERIAS",
+      "filas_utilizadas": 256,
+      "columnas_utilizadas": 16,
+      "formulas": [],
+      "combinadas": [],
+      "referencias_entre_hojas": []
+    },
+    {
+      "nombre": "INDEMNIZACION AG. 1300",
+      "filas_utilizadas": 24,
+      "columnas_utilizadas": 10,
+      "formulas": [
+        [
+          "G6",
+          "=+E6+F6"
+        ],
+        [
+          "G7",
+          "=+E7+F7"
+        ],
+        [
+          "G8",
+          "=+E8+F8"
+        ],
+        [
+          "G9",
+          "=+E9+F9"
+        ],
+        [
+          "G10",
+          "=+E10+F10"
+        ],
+        [
+          "G11",
+          "=+E11+F11"
+        ],
+        [
+          "G12",
+          "=+E12+F12"
+        ],
+        [
+          "G13",
+          "=+E13+F13"
+        ],
+        [
+          "G14",
+          "=+E14+F14"
+        ],
+        [
+          "G15",
+          "=+E15+F15"
+        ],
+        [
+          "G16",
+          "=+E16+F16"
+        ],
+        [
+          "G17",
+          "=+E17+F17"
+        ],
+        [
+          "G18",
+          "=+E18+F18"
+        ],
+        [
+          "G19",
+          "=+E19+F19"
+        ],
+        [
+          "G20",
+          "=+E20+F20"
+        ],
+        [
+          "G21",
+          "=+E21+F21"
+        ],
+        [
+          "E22",
+          "=SUM(E6:E21)"
+        ],
+        [
+          "F22",
+          "=SUM(F6:F21)"
+        ],
+        [
+          "G22",
+          "=SUM(G6:G21)"
+        ]
+      ],
+      "combinadas": [
+        "A6:B21",
+        "C3:I4",
+        "A5:B5"
+      ],
+      "referencias_entre_hojas": []
+    },
+    {
+      "nombre": "MILANO ",
+      "filas_utilizadas": 19,
+      "columnas_utilizadas": 9,
+      "formulas": [
+        [
+          "H15",
+          "=SUM(H4:H14)"
+        ]
+      ],
+      "combinadas": [],
+      "referencias_entre_hojas": []
+    },
+    {
+      "nombre": "PERDIDAS CLTES VARIOS",
+      "filas_utilizadas": 21,
+      "columnas_utilizadas": 10,
+      "formulas": [
+        [
+          "G3",
+          "=157.62+330"
+        ],
+        [
+          "E9",
+          "=SUM(E4:E8)"
+        ],
+        [
+          "F9",
+          "=+G3-E9"
+        ],
+        [
+          "G20",
+          "=SUM(G14:G19)"
+        ],
+        [
+          "H20",
+          "=+H13-G20"
+        ]
+      ],
+      "combinadas": [],
+      "referencias_entre_hojas": []
+    },
+    {
+      "nombre": "PERDIDAS MRW",
+      "filas_utilizadas": 16,
+      "columnas_utilizadas": 10,
+      "formulas": [
+        [
+          "G9",
+          "=E9+F9"
+        ],
+        [
+          "G10",
+          "=E10+F10"
+        ],
+        [
+          "G11",
+          "=E11+F11"
+        ],
+        [
+          "G12",
+          "=E12+F12"
+        ],
+        [
+          "E13",
+          "=SUM(E9:E12)"
+        ],
+        [
+          "F13",
+          "=SUM(F9:F12)"
+        ],
+        [
+          "G13",
+          "=SUM(G9:G12)"
+        ]
+      ],
+      "combinadas": [
+        "A8:B8",
+        "C6:I7",
+        "A9:B11"
+      ],
+      "referencias_entre_hojas": []
+    },
+    {
+      "nombre": "PERDIDA 1344",
+      "filas_utilizadas": 9,
+      "columnas_utilizadas": 10,
+      "formulas": [
+        [
+          "G7",
+          "=E7+F7"
+        ],
+        [
+          "G8",
+          "=+E8+F8"
+        ],
+        [
+          "E9",
+          "=SUM(E7:E8)"
+        ],
+        [
+          "F9",
+          "=SUM(F7:F8)"
+        ],
+        [
+          "G9",
+          "=SUM(G7:G8)"
+        ]
+      ],
+      "combinadas": [
+        "C4:I5",
+        "A7:B8",
+        "A6:B6"
+      ],
+      "referencias_entre_hojas": []
+    }
+  ],
+  "candidatos_principal": 130,
+  "operaciones_distintas": 129,
+  "operaciones_repetidas": {
+    "RECOGIDA": 2
+  },
+  "categorias_originales": {
+    "mensajeria": {
+      "GLS": 33,
+      "MRW": 91,
+      "AGENTE": 5,
+      "(vacío)": 1
+    },
+    "tipo": {
+      "Pérdida total": 21,
+      "Extravio": 70,
+      "Recibido": 19,
+      "Retraso": 16,
+      "ROBO": 1,
+      "EXTRAVIO": 3
+    },
+    "estado": {
+      "Resuelto": 121,
+      "Abierto/Perdida": 2,
+      "En investigacion": 1,
+      "Investigacion": 6
+    }
+  },
+  "campos_vacios": {
+    "expedicion": [
+      "A12",
+      "A13",
+      "A19"
+    ],
+    "cliente": [
+      "D62",
+      "D63"
+    ],
+    "fecha_envio": [
+      "H53",
+      "H54",
+      "H55",
+      "H56",
+      "H57",
+      "H58",
+      "H59",
+      "H60"
+    ],
+    "fecha_incidencia": [
+      "I12",
+      "I13",
+      "I53",
+      "I54",
+      "I55",
+      "I56",
+      "I57",
+      "I58",
+      "I59",
+      "I60"
+    ],
+    "estado": [],
+    "responsable": [
+      "L22",
+      "L23",
+      "L24",
+      "L25",
+      "L26",
+      "L27",
+      "L28",
+      "L29",
+      "L30",
+      "L31",
+      "L32",
+      "L33",
+      "L34",
+      "L35",
+      "L36",
+      "L37",
+      "L38",
+      "L39",
+      "L40",
+      "L41",
+      "L43",
+      "L44",
+      "L45",
+      "L46",
+      "L47",
+      "L48",
+      "L49",
+      "L50",
+      "L51",
+      "L52",
+      "L53",
+      "L54",
+      "L55",
+      "L57",
+      "L58",
+      "L59",
+      "L62",
+      "L63",
+      "L65",
+      "L67",
+      "L68",
+      "L69",
+      "L71",
+      "L72",
+      "L73",
+      "L74",
+      "L75",
+      "L76",
+      "L77",
+      "L78",
+      "L79",
+      "L81",
+      "L89",
+      "L90",
+      "L91",
+      "L92",
+      "L93",
+      "L94",
+      "L95",
+      "L96",
+      "L97",
+      "L98",
+      "L99",
+      "L100",
+      "L101",
+      "L102",
+      "L103",
+      "L104",
+      "L105",
+      "L106",
+      "L107",
+      "L108",
+      "L109",
+      "L110",
+      "L111",
+      "L112",
+      "L113",
+      "L114",
+      "L115",
+      "L116",
+      "L117",
+      "L118",
+      "L119",
+      "L120",
+      "L121",
+      "L122",
+      "L123",
+      "L124",
+      "L125",
+      "L126",
+      "L127",
+      "L128",
+      "L129",
+      "L130",
+      "L131",
+      "L132",
+      "L133",
+      "L134",
+      "L135",
+      "L136",
+      "L137",
+      "L138",
+      "L139",
+      "L140",
+      "L141",
+      "L142",
+      "L143",
+      "L144",
+      "L145",
+      "L146",
+      "L147",
+      "L148",
+      "L149"
+    ]
+  },
+  "fechas_texto": [
+    {
+      "celda": "I30",
+      "valor": "ecua0410282"
+    },
+    {
+      "celda": "I31",
+      "valor": "ecua0410282"
+    },
+    {
+      "celda": "I32",
+      "valor": "ecua0410282"
+    }
+  ],
+  "fechas_invertidas": [
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    128,
+    129,
+    135,
+    136,
+    137,
+    138
+  ]
+}
