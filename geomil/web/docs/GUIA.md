@@ -6,7 +6,7 @@ Actualizado: 16 de septiembre de 2026. Esta guía describe la versión con segui
 
 La carpeta que debes abrir en VS Code es:
 
-`/Users/Hermanitos/.codex/.chatgpt-projects/g-p-6aa80386b29481918cb8a014211c7143/geomil/web`
+`/Users/Hermanitos/perdidas-geomil/geomil/web`
 
 En Finder pulsa **Cmd + Mayús + G**, pega esa ruta y pulsa Intro. En VS Code usa **Archivo → Abrir carpeta** y selecciona `web`. No confundas esta carpeta con `geomil/src`: ese directorio contiene el ejercicio inicial, no la web actual.
 
@@ -162,3 +162,19 @@ Los informes actuales usan los casos creados en el mes seleccionado y su estado 
 Pasaron 11 pruebas unitarias y 34 comprobaciones API locales: autenticación, origen, validación, alta idempotente, conflicto concurrente, documentos, solución, cierre y reapertura. Se revisaron visualmente panel y formulario en Chrome. Los datos creados por esas pruebas se retiraron, conservando los anteriores.
 
 La revisión de tipos y la compilación también se completan como parte del cierre. No se ha probado todavía el acceso de cuatro empleados reales, el envío de correos, una auditoría de seguridad, todos los tamaños móviles ni WebMCP en un navegador compatible. Estas comprobaciones reducen errores conocidos; no garantizan la ausencia absoluta de fallos.
+
+
+## Traslado y acceso desde otros equipos (17 de septiembre de 2026)
+
+La carpeta completa se trasladó, sin copia, a `/Users/Hermanitos/perdidas-geomil`. Abre en VS Code `/Users/Hermanitos/perdidas-geomil/geomil/web`. Se detuvo el servidor local antes del traslado. Para arrancarlo de nuevo:
+
+```sh
+cd /Users/Hermanitos/perdidas-geomil/geomil/web
+npm run dev
+```
+
+La web ya está publicada en https://geomil-incidencias.navarone-da.chatgpt.site y funciona sin que el Mac permanezca encendido. Su acceso sigue restringido al propietario: abre ese enlace desde otro ordenador o móvil e inicia sesión con la misma cuenta. Conocer el enlace no concede acceso a otras personas.
+
+Para que administración entre con cuentas propias, hay que autorizar a esas personas en los permisos del sitio. No hace falta hacer pública la aplicación. Los roles internos de trabajo siguen pendientes; no hay que confundir el permiso de entrada de la plataforma con un rol de supervisor dentro de Geomil.
+
+Guardar cambios localmente o ejecutar `npm run build` no actualiza la web publicada. Para publicar una actualización hay que comprobarla, generar la compilación y desplegarla al sitio existente. Conserva el identificador en `.openai/hosting.json` para actualizar el mismo sitio y sus datos. La guía de Sites gestiona ese despliegue; no basta con subir la carpeta `dist` a un alojamiento estático porque esta aplicación usa servidor, D1, R2 y autenticación.

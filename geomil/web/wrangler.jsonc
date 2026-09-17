@@ -1,0 +1,14 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "geomil-incidencias",
+  "main": "vinext/server/fetch-handler",
+  "compatibility_date": "2024-09-26",
+  "compatibility_flags": ["nodejs_compat"],
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "geomil-incidencias",
+      "database_id": "7c1d91e3-3892-4382-80ae-3ade610b2123"
+    }
+  ]
+}
